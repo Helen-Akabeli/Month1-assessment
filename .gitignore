@@ -1,0 +1,28 @@
+# Local .terraform directories
+**/.terraform/*
+
+# # .tfstate files (Contains sensitive infrastructure data)
+# *.tfstate
+# *.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files
+# (Only terraform.tfvars.example should be uploaded)
+*.tfvars
+*.tfvars.json
+
+# Override files should not be tracked
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include local-only plugin/lock files
+.terraform.lock.hcl
+
+# Ignore Mac and Windows system files
+.DS_Store
+Thumbs.db
